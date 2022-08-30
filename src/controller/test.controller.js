@@ -1,7 +1,5 @@
 const express = require("express");
-
 const router = express.Router();
-
 const Test = require("../model/test.model");
 
 router.post("/test", async(req, res)=>{
